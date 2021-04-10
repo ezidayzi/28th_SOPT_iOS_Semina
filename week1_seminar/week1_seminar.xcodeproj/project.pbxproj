@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD8D7BC22618376E00B10B2B /* week1_semina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week1_semina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8D7BC22618376E00B10B2B /* week1_seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week1_seminar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8D7BC52618376E00B10B2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8D7BC72618376E00B10B2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD8D7BC92618376E00B10B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		DD8D7BB92618376E00B10B2B = {
 			isa = PBXGroup;
 			children = (
-				DD8D7BC42618376E00B10B2B /* week1_semina */,
+				DD8D7BC42618376E00B10B2B /* week1_seminar */,
 				DD8D7BC32618376E00B10B2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		DD8D7BC32618376E00B10B2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD8D7BC22618376E00B10B2B /* week1_semina.app */,
+				DD8D7BC22618376E00B10B2B /* week1_seminar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD8D7BC42618376E00B10B2B /* week1_semina */ = {
+		DD8D7BC42618376E00B10B2B /* week1_seminar */ = {
 			isa = PBXGroup;
 			children = (
 				DD8D7BC52618376E00B10B2B /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				DD8D7BDA26184C8100B10B2B /* OrangeViewController.swift */,
 				DD8D7BDD26184C8E00B10B2B /* PurpleViewController.swift */,
 			);
-			path = week1_semina;
+			path = week1_seminar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD8D7BC12618376E00B10B2B /* week1_semina */ = {
+		DD8D7BC12618376E00B10B2B /* week1_seminar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD8D7BD62618376E00B10B2B /* Build configuration list for PBXNativeTarget "week1_semina" */;
+			buildConfigurationList = DD8D7BD62618376E00B10B2B /* Build configuration list for PBXNativeTarget "week1_seminar" */;
 			buildPhases = (
 				DD8D7BBE2618376E00B10B2B /* Sources */,
 				DD8D7BBF2618376E00B10B2B /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = week1_semina;
+			name = week1_seminar;
 			productName = week1_semina;
-			productReference = DD8D7BC22618376E00B10B2B /* week1_semina.app */;
+			productReference = DD8D7BC22618376E00B10B2B /* week1_seminar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD8D7BBD2618376E00B10B2B /* Build configuration list for PBXProject "week1_semina" */;
+			buildConfigurationList = DD8D7BBD2618376E00B10B2B /* Build configuration list for PBXProject "week1_seminar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD8D7BC12618376E00B10B2B /* week1_semina */,
+				DD8D7BC12618376E00B10B2B /* week1_seminar */,
 			);
 		};
 /* End PBXProject section */
@@ -295,12 +295,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = week1_semina/Info.plist;
+				INFOPLIST_FILE = week1_seminar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sopt.week1-semina";
+				PRODUCT_BUNDLE_IDENTIFIER = "sopt.week1-seminar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,12 +313,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = week1_semina/Info.plist;
+				INFOPLIST_FILE = week1_seminar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sopt.week1-semina";
+				PRODUCT_BUNDLE_IDENTIFIER = "sopt.week1-seminar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD8D7BBD2618376E00B10B2B /* Build configuration list for PBXProject "week1_semina" */ = {
+		DD8D7BBD2618376E00B10B2B /* Build configuration list for PBXProject "week1_seminar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8D7BD42618376E00B10B2B /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD8D7BD62618376E00B10B2B /* Build configuration list for PBXNativeTarget "week1_semina" */ = {
+		DD8D7BD62618376E00B10B2B /* Build configuration list for PBXNativeTarget "week1_seminar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8D7BD72618376E00B10B2B /* Debug */,
