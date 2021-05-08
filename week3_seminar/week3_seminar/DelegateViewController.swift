@@ -16,7 +16,7 @@ class DelegateViewController: UIViewController {
 
     @IBOutlet weak var dataTextField: UITextField!
     
-//    var delegate : SampleProtocol?
+    var delegate : SampleProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class DelegateViewController: UIViewController {
     @IBAction func onClickDataSendButton(_ sender: Any) {
         if let text = dataTextField.text{
             NotificationCenter.default.post(name: Notification.Name("sample"), object: text)
-//            delegate?.dataSending(data: text)
+            delegate?.dataSending(data: text)
         }
         
         self.navigationController?.popViewController(animated: true)

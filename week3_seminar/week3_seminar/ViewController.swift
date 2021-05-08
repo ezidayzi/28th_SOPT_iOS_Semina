@@ -22,7 +22,7 @@ class ViewController: UIViewController,SampleProtocol {
         
         NotificationCenter.default.addObserver(self, selector: #selector(dataReceived), name: Notification.Name("sample"), object: nil)
         
-//        nextVC.delegate = self
+        nextVC.delegate = self
         
         self.navigationController?.pushViewController(nextVC, animated: true)
     }

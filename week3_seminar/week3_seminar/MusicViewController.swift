@@ -80,11 +80,12 @@ extension MusicViewController : UICollectionViewDelegateFlowLayout{
             
             let width = UIScreen.main.bounds.width
             
-            let cellWidth = width * (177/375)
-            let cellHeight = cellWidth * (205/177)
+            let cellWidth = width * (70/375)
+            let cellHeight = cellWidth
             
             return CGSize(width: cellWidth, height: cellHeight)
         }
+    
         func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
             return UIEdgeInsets.zero
         }
