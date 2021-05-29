@@ -54,7 +54,9 @@ struct LoginService{
         let decoder = JSONDecoder()
         
         guard let decodedData = try? decoder.decode(LoginDataModel.self, from: data)
-        else { return .pathErr}
+        else {
+            return .pathErr
+        }
         
         switch statusCode {
             
