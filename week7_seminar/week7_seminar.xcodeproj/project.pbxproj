@@ -14,6 +14,11 @@
 		DD210AF3266208540086C9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD210AF1266208540086C9E4 /* Main.storyboard */; };
 		DD210AF5266208550086C9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD210AF4266208550086C9E4 /* Assets.xcassets */; };
 		DD210AF8266208550086C9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD210AF6266208550086C9E4 /* LaunchScreen.storyboard */; };
+		DDB564E22662141400691B88 /* 7thSeminar_Lottie_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = DDB564E12662141400691B88 /* 7thSeminar_Lottie_sample.json */; };
+		DDB564E82662149B00691B88 /* RefreshTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB564E72662149B00691B88 /* RefreshTableViewCell.swift */; };
+		DDB564EC266215A300691B88 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB564EB266215A300691B88 /* RefreshViewController.swift */; };
+		DDB564EF26621B6D00691B88 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB564EE26621B6D00691B88 /* AnimationViewController.swift */; };
+		DDB564F2266222B400691B88 /* FolderMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB564F1266222B400691B88 /* FolderMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +33,11 @@
 		DD210AF4266208550086C9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD210AF7266208550086C9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD210AF9266208550086C9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD210B06266209150086C9E4 /* 7thSeminar_Lottie_sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 7thSeminar_Lottie_sample.json; sourceTree = "<group>"; };
+		DDB564E12662141400691B88 /* 7thSeminar_Lottie_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 7thSeminar_Lottie_sample.json; path = ../../../../7thSeminar_Lottie_sample.json; sourceTree = "<group>"; };
+		DDB564E72662149B00691B88 /* RefreshTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTableViewCell.swift; sourceTree = "<group>"; };
+		DDB564EB266215A300691B88 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
+		DDB564EE26621B6D00691B88 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		DDB564F1266222B400691B88 /* FolderMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +90,7 @@
 		DD210AEA266208540086C9E4 /* week7_seminar */ = {
 			isa = PBXGroup;
 			children = (
-				DD210B06266209150086C9E4 /* 7thSeminar_Lottie_sample.json */,
+				DDB564E12662141400691B88 /* 7thSeminar_Lottie_sample.json */,
 				DD210AEB266208540086C9E4 /* AppDelegate.swift */,
 				DD210AED266208540086C9E4 /* SceneDelegate.swift */,
 				DD210AEF266208540086C9E4 /* ViewController.swift */,
@@ -89,6 +98,10 @@
 				DD210AF4266208550086C9E4 /* Assets.xcassets */,
 				DD210AF6266208550086C9E4 /* LaunchScreen.storyboard */,
 				DD210AF9266208550086C9E4 /* Info.plist */,
+				DDB564E72662149B00691B88 /* RefreshTableViewCell.swift */,
+				DDB564EB266215A300691B88 /* RefreshViewController.swift */,
+				DDB564EE26621B6D00691B88 /* AnimationViewController.swift */,
+				DDB564F1266222B400691B88 /* FolderMenuViewController.swift */,
 			);
 			path = week7_seminar;
 			sourceTree = "<group>";
@@ -152,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB564E22662141400691B88 /* 7thSeminar_Lottie_sample.json in Resources */,
 				DD210AF8266208550086C9E4 /* LaunchScreen.storyboard in Resources */,
 				DD210AF5266208550086C9E4 /* Assets.xcassets in Resources */,
 				DD210AF3266208540086C9E4 /* Main.storyboard in Resources */,
@@ -207,7 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB564F2266222B400691B88 /* FolderMenuViewController.swift in Sources */,
+				DDB564EC266215A300691B88 /* RefreshViewController.swift in Sources */,
+				DDB564E82662149B00691B88 /* RefreshTableViewCell.swift in Sources */,
 				DD210AF0266208540086C9E4 /* ViewController.swift in Sources */,
+				DDB564EF26621B6D00691B88 /* AnimationViewController.swift in Sources */,
 				DD210AEC266208540086C9E4 /* AppDelegate.swift in Sources */,
 				DD210AEE266208540086C9E4 /* SceneDelegate.swift in Sources */,
 			);
